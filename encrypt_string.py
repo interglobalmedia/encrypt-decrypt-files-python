@@ -12,5 +12,5 @@ def message_encrypt():
   message_encrypt.message_encrypted = f.encrypt(message.encode())
   print(message_encrypt.message_encrypted)
 
-# decrypt data
+# encrypt data
 message_encrypt()
