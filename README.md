@@ -52,7 +52,7 @@ message_encrypt.message_encrypted = f.encrypt(message.encode())
 from encrypt_string import message_encrypt
 ```
 
-***And this*** then ***made it*** possible ***to add*** the ***following*** inside the `message_decrypt` function ***thereby linking*** the `encrypted message` ***created*** in `encrypt_string.py` to the `encrypted message` ***imported from*** the `from encrypt_string import message_encrypt` file into `decrypt_string.py`, ***thereby*** `decrypting` the `variable` ***with the*** `value` ***of the*** `encrypted message` (`string`):
+***And this*** then ***made it*** possible ***to add*** the ***following*** inside the `message_decrypt` function ***thereby linking*** the `encrypted message` ***created*** in `encrypt_string.py` to the `encrypted message` ***imported from*** the `encrypt_string.py` file into `decrypt_string.py`, which resulted in the successful  `decryption` ***of the*** `encrypted message` (`string`):
 
 ```python
 from encrypt_string import message_encrypt
@@ -60,7 +60,7 @@ from encrypt_string import message_encrypt
 message_encrypt.message_encrypted = f.decrypt(message_encrypt.message_encrypted.decode())
 ```
 
-This ***prevents*** the ***following*** `error` ***from*** `taking place` in `Terminal` ***when running*** the ***string related*** files ***containing*** the `modularized functions`:
+The above ***prevents*** the ***following*** `error` ***from*** `taking place` in `Terminal` ***when running*** the ***string related*** files ***containing*** the `modularized functions`:
 
 ```python
 File "/Users/mariacam/Development/cyber-projects/encrypt-decrypt-files-python/venv/lib/python3.11/site-packages/cryptography/fernet.py", line 86, in decrypt
