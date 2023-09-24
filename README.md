@@ -112,6 +112,12 @@ zsh: command not found: gpg
 
 You ***do not*** have it ***installed***.
 
+If you are on `Linux`, you ***would*** `use` the ***following command*** to ***install*** `gpg` ***using*** the `package manager` ***of your*** `Linux distribution`:
+
+```shell
+sudo apt install gnupg
+```
+
 ***After*** `gnupg` was ***installed***, I ***ran*** the ***following command*** in `Terminal`:
 
 ```shell
@@ -208,3 +214,9 @@ Files greetings.txt and greetings1.txt are identical
 Success!
 
 **Note**: the `-s` option is short for `--sign`, which stands for "sign a message". So basically, I am checking to make sure that the integrity of the file when decrypted was intact.
+
+### Related Resources
+
+- [Encrypting and Decrypting Files in Linux](https://www.baeldung.com/linux/encrypt-decrypt-files)
+
+- [How to Encrypt and Decrypt Files in Python](https://thepythoncode.com/article/encrypt-decrypt-files-symmetric-python)
