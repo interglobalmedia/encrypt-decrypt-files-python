@@ -52,7 +52,7 @@ message_encrypt.message_encrypted = f.encrypt(message.encode())
 from encrypt_string import message_encrypt
 ```
 
-***And this*** then ***made it*** possible ***to add*** the ***following*** inside the `message_decrypt` function ***thereby linking*** the `encrypted message` ***created*** in `encrypt_string.py` to the `encrypted message` ***imported from*** the `encrypt_string.py` file into `decrypt_string.py`, which resulted in the successful  `decryption` ***of the*** `encrypted message` (`string`):
+***And this*** then ***made it*** possible ***to add*** the ***following*** inside the `message_decrypt` function ***thereby linking*** the `encrypted message` ***created*** in `encrypt_string.py` to the `encrypted message` ***imported from*** the `encrypt_string.py` file into `decrypt_string.py`, which ***resulted in*** the ***successful***  `decryption` ***of the*** `encrypted message` (`string`):
 
 ```python
 from encrypt_string import message_encrypt
